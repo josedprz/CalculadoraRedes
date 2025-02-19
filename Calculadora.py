@@ -13,6 +13,10 @@ def calculadora():
         match opcion:
             case 1:
                 # Suma
+                print("Ingresa los números a sumar: ")
+                num1 = float(input("Número 1: "))
+                num2 = float(input("Número 2: "))
+                print("Resultado:", num1 + num2)
                 continue
             case 2:
                 # Resta
