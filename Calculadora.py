@@ -1,5 +1,8 @@
 # Funciones
 
+def potencia(num, exponente):
+    return num ** exponente
+
 def calculadora():
     while True:
         print("Selecciona una operación: ")
@@ -33,7 +36,9 @@ def calculadora():
                 continue
             case 5:
                 # Potencia
-                continue
+                print('\n-> Potencia <-\n')
+                resultado = potencia(int(input("Ingresa el número: ")), int(input("Ingresa el exponente: ")))
+                print(f" \n----- El resultado es: {resultado} -----\n")
             case 6:
                 break
             case _:
