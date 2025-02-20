@@ -26,7 +26,10 @@ def calculadora():
                 continue
             case 3:
                 # Multiplicación
-                continue
+                num1 = float(input("Ingresa el primer número: "))
+                num2 = float(input("Ingresa el segundo número: "))
+                resultado = num1 * num2
+                print(f"El resultado de {num1} * {num2} es: {resultado}")
             case 4:
                 # Division
                 print("Ingresa los números a dividir: ")
