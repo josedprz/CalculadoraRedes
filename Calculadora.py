@@ -25,7 +25,11 @@ def calculadora():
                 # Multiplicación
                 continue
             case 4:
-                # División
+                # Division
+                print("Ingresa los números a dividir: ")
+                num1 = float(input("Número 1: "))
+                num2 = float(input("Número 2: "))
+                print("Resultado división:", num1 / num2)
                 continue
             case 5:
                 # Potencia
