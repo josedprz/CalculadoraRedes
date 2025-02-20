@@ -23,7 +23,10 @@ def calculadora():
                 continue
             case 2:
                 # Resta
-                continue
+                print("Ingresa los números a restar: ")
+                num1 = float(input("Número 1: ")) 
+                num2 = float(input("Número 2: "))
+                print("Resultado: ", num1 - num2)
             case 3:
                 # Multiplicación
                 num1 = float(input("Ingresa el primer número: "))
