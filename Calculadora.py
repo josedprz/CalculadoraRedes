@@ -16,14 +16,6 @@ def calculadora():
                 continue
             case 2:
                 # Resta
-                print("Ingresa los números a restar: ")
-                número 1 = float(input("Número 1: ")) 
-                número 2 = float(input("Número 2: "))
-                print("Resultado: ", número 1 - número 2)
-                print("Ingresa los números a restar: ")
-                número 1 = float(input("Número 1: ")) 
-                número 2 = float(input("Número 2: "))
-                print("Resultado: ", número 1 - número 2)
                 continue
             case 3:
                 # Multiplicación
